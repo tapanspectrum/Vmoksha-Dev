@@ -1,0 +1,34 @@
+﻿﻿﻿﻿﻿{
+  "ViewModels": [{
+            "Id": 1,            
+            "ImageURL": "http://vikramaditya.vmokshagroup.com/vmokshagroup-dev/wp-content/uploads/2013/10/Zaniti.jpg",
+            "Description": "Companies across industries and geographies are adapting this new generation technology. The trend is believed only to grow rapidly and has been evolving like never before.Uncover its merits to grow your business!",            "Title": "Cloud Computing"
+          }, {
+            "Id": 2,            
+            "ImageURL": "http://vikramaditya.vmokshagroup.com/vmokshagroup-dev/wp-content/uploads/2013/09/wateraid.jpg",
+            "Description": "Online presence extends the reach of marketing and revenue objectives while strengthening the brand. Reinforce your business with our dynamic and personalized Digital Marketing solutions across multiple digital channels!",
+            "Title": "Digital Marketing"
+          }, {
+            "Id": 3,
+            "ImageURL": "http://vikramaditya.vmokshagroup.com/vmokshagroup-dev/wp-content/uploads/2013/09/ucb.jpg",
+            "Description": "Since mobile devices are now becoming a part of day to day business, mobility is no longer at the fringe of discussions, instead at the core of strategic agendas.Enterprise Mobility is a necessity in today’s ever changing world!",
+            "Title": "Enterprise Mobility"
+            
+          }, {
+            "Id": 4,
+            "ImageURL": "http://vikramaditya.vmokshagroup.com/vmokshagroup-dev/wp-content/uploads/2013/09/pickforts.jpg",
+            "Description": "Today’s enterprises face enormous challenge attracting right talents. We come with deep industry experience to help you increase your turn around time and serve you better.Partner with us to grow your business!",
+            "Title": "Professional Services"
+          }, {
+            "Id": 5,
+            "ImageURL": "http://vikramaditya.vmokshagroup.com/vmokshagroup-dev/wp-content/uploads/2013/10/CPA.jpg",
+            "Description": "Inadequate testing increases risk potentially leading to loss of revenue, trust & brand. We bring in a variety of services helping customers address their concerns.Testing plays an important role in the smoother running of businesses!",
+            "Title": "Testing Services"
+          }, {
+            "Id": 6,
+            "ImageURL": "http://vikramaditya.vmokshagroup.com/vmokshagroup-dev/wp-content/uploads/2013/09/ucb.jpg",
+            "Description": "Internet of Things links the physical world of things to the virtual world of internet offering a multitude of new opportunities. Integrate an end-to-end IoT system into your business to redefine your customer relationship!",
+            "Title": "Internet of Things"
+          }],
+  "Success": true
+}

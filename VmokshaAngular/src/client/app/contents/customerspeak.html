@@ -1,0 +1,44 @@
+<!--Section: slider3 -->
+<div class="col-md-12" style="background: white;">
+<div class="col-md-1" style="display: table; margin-top: 4px; vertical-align: middle; padding-left: 5px; margin-bottom: 4px;">
+            <img src="http://vmokshagroup.com/wp-content/uploads/2013/09/customer-speak.png">
+</div>   
+<div id="CS_Carousel" class="carousel slide col-md-10">
+    <!--Carousel Wrapper (1)-->
+   <!--  <div id="carousel-example-1" class="carousel testimonial-carousel slide carousel-fade wow fadeInLeft  sp-widget widget_text" data-wow-delay="0.1s" data-ride="carousel" data-interval="false"> -->
+        
+        <!--Slides-->
+    <div class="carousel slide" id="myCarouselcust_speak">    <div class="carousel-inner" role="listbox">
+            <div class="carousel-item {{items.class}} col-md-12" ng-repeat="items in vm.Carousel">
+                <div class="col-md-10" style="display: table; margin-top: 19px; vertical-align: middle;">"{{items.Description}}"
+
+                    <div style="padding-top: 5px; text-align: right;">{{items.Designation}}
+                    </div>
+                    <div style="font-weight: bold; padding-top: 5px; text-align: right;">{{items.Company}}</div>
+                </div>
+                <div class="col-md-2" style="display: table; margin-top: 19px; vertical-align: middle;">
+                    <img width="" ng-src="{{vm.ImageContext + items.ImageURL}}">
+                </div>
+        </div>
+  <!--   </div> -->
+            <!-- </div> -->
+    </div>
+        <!--/.Slides-->
+
+</div>
+       <!--  <a class="carousel-control left" href="#myCarouselcust_speak" data-slide="prev">‹</a>
+        <a class="carousel-control right" href="#myCarouselcust_speak" data-slide="next">›</a>  
+    </div> -->
+    <!--/.Carousel Wrapper (1)-->
+      
+<!-- </div> -->
+
+
+</div>
+
+<script>
+    $('#myCarouselcust_speak').carousel({
+  interval: 3000,
+  cycle: true
+}); 
+</script>

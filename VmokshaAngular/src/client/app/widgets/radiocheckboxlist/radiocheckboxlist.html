@@ -1,0 +1,40 @@
+
+<!--for checkbox--start-->
+<div id="div_checkbox_{{controlId}}" ng-if="inputType === 'checkbox'">
+    <div ng-if="buttonAlignment === 'horizontal'">
+        <form class="form-inline">
+            <fieldset class="form-group m-r-2" ng-repeat="item in items track by $index">
+                <input type="checkbox" id="checkbox_{{controlId}}_{{item.Code}}" name="{{controlId}}" ng-model="ngSelectModel" value="{{item.Code}}" ng-click="checkboxchange(item, ngSelectModel)" />
+                <label for="checkbox_{{controlId}}_{{item.Code}}">{{item.Name}}</label>
+            </fieldset>
+         </form>
+    </div>
+    <div ng-repeat="item in items track by $index" ng-if="buttonAlignment === 'vertical'">
+        <fieldset class="form-group">
+            <input type="checkbox" id="checkbox_{{controlId}}_{{item.Code}}" name="{{controlId}}" ng-model="ngSelectModel" value="{{item.Code}}" ng-click="checkboxchange(item, ngSelectModel)" />
+            <label for="checkbox_{{controlId}}_{{item.Code}}">{{item.Name}}</label>
+        </fieldset>
+    </div>
+</div>
+<!--for checkbox--end-->
+
+<!--for radio button--start-->
+<div id="div_radio_{{controlId}}" ng-if="inputType === 'radio'">
+    <div ng-if="buttonAlignment === 'horizontal'">
+        <form class="form-inline">
+            <fieldset class="form-group m-r-2" ng-repeat="item in items track by $index">
+                <input type="radio" ng-model="ngSelectModel" name="{{controlId}}" value="{{item.Code}}" id="radio_{{controlId}}_{{item.Code}}"
+                       ng-change='selecteditem(item)' />
+                <label for="radio_{{controlId}}_{{item.Code}}">{{item.Name}}</label>
+            </fieldset>
+        </form>
+    </div>
+    <div ng-repeat="item in items track by $index" ng-if="buttonAlignment === 'vertical'">
+        <fieldset class="form-group">
+            <input type="radio" ng-model="ngSelectModel" name="{{controlId}}" value="{{item.Code}}" id="radio_{{controlId}}_{{item.Code}}"
+                   ng-change='selecteditem(item)' />
+            <label for="radio_{{controlId}}_{{item.Code}}">{{item.Name}}</label>
+        </fieldset>
+    </div>
+</div>
+<!--for radio button--end-->

@@ -1,0 +1,19 @@
+﻿﻿﻿﻿{
+  "ViewModels": [{
+            "Id": 1,            
+            "Title": "Go Multi-Channel (Mobile)",
+            "Description": "Mobile technology brought new power to the business and has gone beyond the consumer space. In the drive of enterprise mobility, Vmoksha can help businesses deliver enterprise data to all their users on any device, anywhere.",
+            "ImageURL": "http://vmokshagroup.com/wp-content/uploads/2013/09/mobility-2.png"
+          }, {
+            "Id": 2,  
+            "Title": "Cloud Computing",
+            "Description": "Cloud Computing has become very popular in the past few years. It is the transformation of IT as a product to IT as a service. The universe of information from hardware to software is being delivered wherever and whenever you need it.",            
+            "ImageURL": "http://vmokshagroup.com/wp-content/uploads/2013/09/cloud.png"
+          }, {
+            "Id": 3,
+            "Title": "Professional Services",
+            "Description": "IT Staff Augmentation disrupts the conventional staffing model, where you keep acquiring resources as your business grows. Staff augmentation allows businesses to ramp up resources on the fly in real time without investing additionally in recruitment.",            
+            "ImageURL": "http://vmokshagroup.com/wp-content/uploads/2013/09/staffing.png"
+          }],
+  "Success": true
+}

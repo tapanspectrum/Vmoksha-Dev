@@ -1,0 +1,49 @@
+<!--* Description: The is page for data binding and display from base url.
+ * Author:  Kirti
+ * Created On: 7/01/2017
+ * Modified For: 
+ * Modified On: 
+ * Modified By:
+ * -->
+
+
+
+<div class="container m-b-2 purp-header-padding">
+    <div class="col-md-12 property-details-page" style="margin-top: 30px;">
+        <div class="col-md-12 purp-property-buttons">
+            <h2 class="purp-highlight">Page</h2>
+        </div>
+        <div class="col-md-12 ">
+            <br>
+        </div>
+        <div ></div>
+        <h4 class="purp-highlight"><strong>test</strong></h4>
+        
+        <h6 ng-bind-html="items.Description"></h6>
+        </div>
+    </div>
+    <!-- Data Binding  and Display -->
+  <div class="col-md-12" ng-if="vm.IsContentLoaded">
+       <div class="col-md-12">
+            <div ng-bind-html="data.content"  class="col-md-12"></div>
+             <br/>
+            <p>id: {{vm.page346.id}}</p>
+            <p>Title: {{vm.page346.title.rendered}}</p>  
+            <p>content: {{vm.page346.content.rendered}}</p>  
+            <br/>
+            <p>excerpt: {{vm.page346.excerpt.rendered}}</p> 
+       </div>
+  </div>
+  <br/>
+
+
+  <!--  <div class="col-md-12 property-details-page" style="margin-top: 30px;" ng-if="vm.IsContentLoaded">
+       <div class="col-md-12" ng-repeat="data in vm.page346">
+            <div ng-bind-html="data.content"  class="col-md-12"></div>
+             <br/>
+            <p>id: {{data.id}}</p>  
+            <p>title: {{data.title}}</p>
+            </div>
+        </div>-->
+    </div>
+</div>

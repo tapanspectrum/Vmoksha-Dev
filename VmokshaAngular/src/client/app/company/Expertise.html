@@ -1,0 +1,61 @@
+<!-- * Description: The Expertise page deals with the Aboutus page.
+	 * Author:  Kirti
+	 * Created On: 6/01/2017
+	 * Modified For: Get the data from JSON and ngSanitize's linky filter changes \r and \n to &#10; and &#13; respectively
+	 * Modified On: 13/01/2017
+	 * Modified By:Kirti
+ 	 * *-->
+<main>  
+<!--Expertise -->
+   
+ <div class="container" id="content">
+	<div class="col-md-12" style="width: 100%;">
+		<div class="col-md-3" style="padding-left: 0px;padding-right: 0px;">
+			<div id="leftsidebar" " ng-include="'app/layout/leftsidebar.html'"></div>
+		</div>
+		<div class="col-md-9">
+			<div class="col-md-12 ov-bg">
+				   <article id="post-27" class="post-27 page type-page status-publish hentry">
+				   <!-- Get the data from JSON  and Data Bind -->
+				   <div ng-repeat="data in vm.overview" ng-show="data.Id==2">
+						<header class="entry-header">
+							<h1 class="entry-title page-header">{{data.Title}}</h1>
+						</header>
+							<div class="entry-content clearfix">
+								<h4 style="text-align: justify;">
+									<a ui-sref="Expertise"><img  class="img-fluid" alt="Responsive image" src="{{data.ImageURL}}"></a>
+								</h4>
+								<p  ng-bind-html="data.Description | nl2br "></p>
+								<!-- Vmoksha’s management and delivery team has the industry’s most experienced team in executing large projects and running offshore development centers for large corporations. The team has a successful track record in delivering multiple projects to global customers in the following domain areas:
+
+								  <li>Financial Services</li>
+								<li>Manufacturing & Food Processing</li>
+								<li>Legal & Intellectual Property</li>
+								<li>Retail & Distribution</li>
+								<li>Healthcare & Life Sciences</li>
+								<li>Shipping & Transportation</li>
+								<li>Independent Software Vendors</li>
+								<p>The skill base is continuously renewed through technical training, self development initiatives, access to learning resources and new recruitment. People development initiatives re-in force the constant learning theme within the organization.</p>
+
+								<p>Vmoksha’s business is focused on Offshore IT Outsourcing Services using customized business propositions that offer value and help build long term client relationships. We focus on the offshore outsourcing of e-business related application software in the areas of e- Commerce, ERP, SCM, CRM, Business Intelligence and Enterprise Portals.</p>
+
+								<p>We also offer customized software solutions around customers’ choice of technologies.</p>
+
+								<p>We have built expertise in Enterprise Applications such as PeopleSoft, SAP and Oracle Apps.</p>
+
+								<p>We have a flexible testing model that blends easily with our client’s processes. Our package testing experience includes SAP, PeopleSoft and Oracle Applications. We possesses knowledge of porting challenges on different OS, application servers and databases These services are complimented by infrastructure services that include</p>
+
+								<li>IT Infrastructure Management Services</li>
+								<li>Security Services</li>
+								<li>Performance Testing Services</li> -->
+								
+							</div>
+					</article><!-- end article-->
+		    </div>
+		 </div>
+	</div><!--End Expertise container -->
+</div><!--End Expertise container -->
+
+		<!-- End Expertise -->
+</main>  
+

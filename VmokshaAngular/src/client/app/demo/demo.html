@@ -1,0 +1,39 @@
+<!--* Description: The Demo view deals with Data Binding  and Display  .
+ * Author: Kirti
+ * Created On: 27/12/2016
+ * Modified For: 
+ * Modified On: 
+ * Modified By: 
+ * -->
+
+<div class="container m-b-2 purp-header-padding">
+    <div class="col-md-12 property-details-page" style="margin-top: 30px;">
+        <div class="col-md-12 purp-property-buttons">
+            <h2 class="purp-highlight">Demo Title </h2>
+        </div>
+        <div class="col-md-12 ">
+            <br>
+        </div>
+        <div ></div>
+        <h4 class="purp-highlight"><strong>COMPANY PROFILE</strong></h4>
+        
+        <h6 ng-bind-html="items.Description"></h6>
+        </div>
+    </div>
+    <!-- Data Binding  and Display -->
+    <div class="col-md-12 property-details-page" style="margin-top: 30px;" ng-if="vm.IsContentLoaded">
+        <div class="col-md-12" ng-repeat="data in vm.demo.posts">
+            <div ng-bind-html="data.content"  class="col-md-12"></div>
+             <br/>
+            <p>id: {{data.id}}</p>  
+            <p>slug: {{data.slug}}</p>  status
+            <p>status: {{data.status}}</p>
+            <p>date: {{data.date}}</p>
+            <p>categories: {{data.categories}}</p>
+            <div class="col-md-12" ng-repeat="item in data.categories">
+            <p>categories id : {{item.id}}</p>
+            <p>categories title: {{item.title}}</p>
+            </div>
+        </div>
+    </div>
+</div>

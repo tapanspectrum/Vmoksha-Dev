@@ -1,0 +1,79 @@
+﻿﻿﻿﻿{
+  "ViewModels": [{
+            "Id": 1,   
+            "Title": "Overview",         
+            "ImageURL": "http://vmokshagroup.com/wp-content/uploads/2013/10/companyoverview_bnr.jpg",
+            "Description": "Vmoksha Technologies Private Limited is an offshore based,IT outsourcing services company headquartered in Bangalore, India. Since its inception in May 2001, Vmoksha has adopted a strategy of rapid organic as well as inorganic growth. \n\n Vmoksha’s growth has been realized through a strong focus on offshore IT outsourcing services and adapting its Flexible Business Model for customers around the globe. The business strategy has led to acquisitions of a number of large, prestigious customers including 3M Healthcare, Edwards, Christie’s, NTUC Fairprice, S1 Corporation (now part of ACI Worldwide), Pickfords, Toyota, Gallo Wineries, CPA Global, UCB, IBM, Cisco, Wincor Nixdorf, Nextance, Unilever-India etc.\n\n Vmoksha has operations in US, Europe and Asia Pacific currently with offices in Newport Beach, London and Singapore. This has enabled us to provide a high level of customer satisfaction and deliver cost-effective solutions.\n\n",
+            "Our_Vision": "To earn global admiration while adding value to the customers, partners and employees.",
+            "Our_Mission": "To transform customers’ business problems into win-win opportunities\n To perpetually focus on balancing quality, cost, and time\nTo inspire continuous learning across the organization\nTo work smart and play hard"
+          }, {
+            "Id": 2,   
+            "Title": "Expertise",            
+            "ImageURL": "http://vmokshagroup.com/wp-content/uploads/2013/02/expertise.png",
+            "Description": "Vmoksha’s  and delivery team has the industry’s most experienced team in executing large projects and running offshore development centers for large corporations. The team has a successful track record in delivering multiple projects to global customers in the following domain areas:\n\n<li>Financial Services</li><li>Manufacturing & Food Processing</li><li>Legal & Intellectual Property</li><li>Retail & Distribution</li><li>Healthcare & Life Sciences</li><li>Shipping & Transportation</li><li>Independent Software Vendors</li><br/>The skill base is continuously renewed through technical training, self-development initiatives, access to learning resources and new recruitment. People development initiatives re-in force the constant learning theme within the organization.\n\nVmoksha’s business is focused on Offshore IT Outsourcing Services using customized business propositions that offer value and help build long-term client relationships. We focus on the offshore outsourcing of e-business related application software in the areas of e- Commerce, ERP, SCM, CRM, Business Intelligence and Enterprise Portals.\n\n We also offer customized software solutions around customers’ choice of technologies.\n \n We have built expertise in Enterprise Applications such as PeopleSoft, SAP, and Oracle Apps.\n\n We have a flexible testing model that blends easily with our client’s processes. Our package testing experience includes SAP, PeopleSoft, and Oracle Applications. We possess knowledge of porting challenges on different OS, application servers, and databases. These services are complimented by infrastructure services that include\n\n<li>IT Infrastructure Management Services</li><li>Security Services</li><li>Performance Testing Services</li>"
+            
+          }, {
+            "Id": 3,
+            "Title": "Quality Culture",  
+            "ImageURL": "http://vmokshagroup.com/wp-content/uploads/2013/09/quality-process.png",
+            "Description": "Vmoksha accredited by Carnegie Mellon’s Software Engineering Institute as a CMMi Level 5 company in 2003. Highlights of Vmoksha’s CMMi accreditation:\n\n<li>2nd company in the world to be assessed for all the 4 disciplines of CMMi</li><ol>Software Engineering</ol><ol>System Engineering</ol><ol>Supplier Sourcing</ol><ol>Integrated Process and Product Development</ol><li>1st company in the world to directly go for CMMi level 5 assessment without being assessed at intermediate levels</li><li>Got assessed at level 5 within 2 years of start of operations</li>\n\nTo strengthen information security standards and to reassure customer data security, Vmoksha has upgraded the ISO 27001 certification from 2005 to 2013."
+            
+          }, {
+            "Id": 4,
+            "Title": "Infrastructure",  
+            "ImageURL": "http://vmokshagroup.com/wp-content/uploads/2013/09/infrastructure.png",
+            "Description": "Vmoksha has two offshore development centers – one in Bangalore and a back- up center in Singapore. These have well laid out contemporary IT infrastructure facilities, capabilities to manage multiple projects. They are modern development centers that adhere to international security standards while being a virtual extension of our customers’ operations. Some of the details of these capabilities are:\n<li>Global standards in structure, design and security</li><li>Power back-up, uninterrupted Power Supply</li><li>Fire-protection, earthquake zone 4 regulation design</li><li>LAN with CISCO devices and fully secured with firewalls</li><li>VoIP from CISCO and IP PBX</li><li>Dedicated Internet Leased Line of 12 Mbps (ILL), VPN access</li>",
+            "Company": "Largest moving and storage company, UK",            
+            "Designation": "Project Manager"
+          }, {
+            "Id": 5,
+            "Title": "Why Vmoksha?",  
+            "ImageURL": "http://vmokshagroup.com/wp-content/uploads/2013/09/whyvmoksha.png",
+            "Description": "At Vmoksha, People, Product and Processes converge to create compelling, high-value, cost-effective solutions. In the fast-paced digital economy, the cycle of innovation to production to obsolescence’ is becoming increasingly shorter. Moreover, the current CXO community faces the challenge of meeting growing expectations with limited budgets. To this environment, Vmoksha brings solutions that not only improve customers’ time to market, but also keep costs down to the lowest possible, and contribute to customer profitability.<br/>We measure our success in terms of the value we provide to our customers and the extent to which we contribute in helping them achieve their return on investment goals and competitive advantage. Vmoksha becomes the natural choice with assured benefits like:<br/><li>Understanding our customers’ business and technology needs</li><li>Success of customers’ offshore outsourcing initiatives</li><li>Ability to ramp up/ down resources quickly</li><li>Contemporary product engineering skills</li><li>Customer focused delivery</li><li>Cost-effective solutions</li><li>SEI CMMI Level 5 compliant processes</li><br/>Vmoksha provides flexible business model options for its customers which minimizes risk of offshore outsourcing. Our strategy for growth, based on developing long-term relationships, offers enduring benefits. With relationships that could start with specific fixed price or time and material (T&M) projects and grow to become Offshore Development Centers (ODCs) and/or Joint Ventures using our Flexible Business Model, Vmoksha is a partner to customers’ success.<br/>Consult us to discover how we can offer you high value and quality, cost effective business solutions on time, every time.",
+            "Company": "Leading legal outsourcing company, UK",            
+            "Designation": "Business User"
+          }, {
+            "Id": 6,
+            "Title": "Culture",  
+            "ImageURL": "http://vmokshagroup.com/wp-content/uploads/2013/09/csr_bnr.jpg",
+            "Description": "Vmoksha measures its success in terms of the value provided to our customers. The extent to which we contribute in achieving their return on investment goals with a competitive advantage.<br/>Vmoksha employees share the commitment to provide and be accountable for high quality, measurable results to our clients, partners, shareholders and one another. To exceed their expectations from us as a team and as individuals.<br/>Vmoksha encourages a culture of teamwork and collaboration. We expect all employees to be team players who will take along the whole team and work towards the common goal. Our culture provides freedom to think, judge and act independently within the team framework. This independence of judgment tempered with the spirit of teamwork without any doubt provides our clients with an essential guarantee of 100% success to their projects.<br/>Vmoksha cultivates the spirit of initiative, creativity, tolerance and respect for others, their culture and their habits.<br/>To us modesty is the opposite of affectedness, pretentiousness, arrogance and boastfulness. It means discretion, spontaneity and openness in relations.<br/>We are proud of what we do, and we achieve our objectives in the never-ending search for top quality.",
+            "Company": "Leading Bio-Pharmaceutical Giant, UK",            
+            "Designation": "Service Delivery Manager"
+          }, {
+            "Id": 7,
+            "Title": "Corporate Social Responsibilities",
+            "ImageURL": "http://vmokshagroup.com/wp-content/uploads/2013/09/csr_bnr.jpg",
+            "Description": "Vmoksha considers CSR as an integral objective of its business. To Vmoksha business is not an isolated entity insulated from the Society. A business is very much a part of the Social Ecosystem. And in any ecosystem there has to be a give and take.<br/>Vmoksha CSR initiatives are designed to enhance value creation in the society and in the community in which it operates. Vmoksha through its services, conduct & initiatives will promote sustained growth for the society and community to fulfill its role as a Socially Responsible Corporate.<br/>The objective of the Vmoksha CSR Policy is to:<li>Ensure an continued commitment at all levels in the organization, to operate its business in an economically, socially & environmentally sustainable manner, while recognizing the interests of all its stakeholders.</li><li>Ensure the environment protection and sustenance by using environment friendly products, reducing power consumption and complying with all environmental laws.</li><li>To directly or indirectly take up programmes that benefit the communities in & around its work centers.</li><li>To generate, through its CSR initiatives, a community goodwill for Vmoksha in particular and for the business community in general.</li>",
+            "Activities_Title": "Activities",            
+            "Activities_Cont": "<li>Vmoksha’s visit to Sneha Care Home – 2011</li><li>School Kit Distribution Drive – CSR 2010</li><li>Flood relief camp in Kaggalu village – CSR 2009</li><li>CSR Initiative for 2008</li><li>Premodaya & Shishu Bhavan – CSR 2007</li><li>Nepal Earthquake Donation – 2015</li><li>Chennai Flood Relief – 2015</li>"
+          },{
+            "Id": 8,
+            "Title": "Testimonials",
+            "ImageURL": "http://vmokshagroup.com/wp-content/uploads/2013/09/careers_bnr.jpg",
+            "Testi_Descrip": "Dear Team, Many thanks for your work on the Kenya project. This is presently being tested fully by the Kenya team. I ran some quick tests and it looked great so good work !!",
+            "Testi_Designation": "– Programme Officer, Mapping, Technical Support Unit, WaterAid, UK",
+            "Testi_Descrip": "Dear Team, Great, thank you, that is working well ! Thanks for the swift turnaround",
+            "Testi_Designation": "– Websites Manager, WaterAid, UK",
+            "Testi_Descrip": "It has been great working with Vmoksha and I appreciate all efforts put in from the team through some very intense deliveries and timescales",
+            "Testi_Designation": "– Project Manager, Largest moving and storage company (pickfords), UK",
+            "Testi_Descrip": "For more than a year we were working on the Enterprise Vault Promotion and Mailbox Limit Implementation Projects for all sites within the organisation. Step by step we did complete one site after the other. As of now we have completed ALL sites with two exceptions had been completed. Most sites are 100% compliant to the mailbox limit of 1GB. In some sites we have one or two mailboxes still above the limit. This is an tremendous success and a prerequisite to move to Exchange 2010. I would like to take this opportunity to express my congratulations and special thanks to the Vmoksha team.",
+            "Testi_Designation": "– Service Delivery Manager, Leading bio-pharmaceutical giant, UK (UCB)",
+            "Testi_Descrip": "This is one of the best service providers we have worked with and would recommend them to everyone. We have actually asked them to do some more work for us.",
+            "Testi_Designation": "– Project Manager, Zaniti Technologies.",
+            "Testi_Descrip": "Thank you so much for dealing with this issue straight away. Please also thank all of the other guys who helped. My sales manager is over the moon with the prompt service Vmoksha provides when dealing with the support issues.",
+            "Testi_Designation": "- Business User, Leading legal outsourcing company, UK (CPA)",
+            "Testi_Descrip": "I truly appreciate the hard work, commitment and passion that so many of you bring to your work at PeopleSoft!",
+            "Testi_Designation": "-General Manager, HCM Products",
+            "Testi_Descrip": "We believe that Vmoksha and PeopleSoft personnel have established an excellent relationship.",
+            "Testi_Designation": "-Product Manager, PeopleSoft",
+            "Testi_Descrip": "Good job by you all for your fix in the bundle and SQA automation for the fix .Now, your output is delivered to our 500 + customers. Keep it up.",
+            "Testi_Designation": "- QA Specialist, Learning Solutions",
+            "Testi_Descrip": "Vmoksha is a knowledge reservoir of PeopleSoft resources. We should make maximum use of them.",
+            "Testi_Designation": "- QA Manager for GP Country Extensions",
+            "Testi_Descrip": "The “turnaround” story of the partnership. When we met in November, QA was just moving out of RED into Yellow status. Then we had 2 people on the project. Today we have 15 people, and are in a bright Green status. This project has become the benchmark for offshoring QA in PeopleSoft.",
+            "Testi_Designation": "-VP Outsourcing, PeopleSoft",
+            "Testi_Descrip": "Congratulations for the huge success of this project. Use the practices from this project as best practice for other outsourcing projects.",
+            "Testi_Designation": "-Director – HCM"
+          }],
+  "Success": true
+}

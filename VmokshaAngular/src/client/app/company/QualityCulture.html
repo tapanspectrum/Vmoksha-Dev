@@ -1,0 +1,53 @@
+<!-- * Description: The Quality Culture page deals with the Aboutus page.
+	 * Author:  Kirti
+	 * Created On: 6/01/2017
+	 * Modified For: Get the data from JSON and ngSanitize's linky filter changes \r and \n to &#10; and &#13; respectively
+	 * Modified On: 13/01/2017
+	 * Modified By:Kirti
+ 	 * *-->
+<main>  
+   <!--Quality Culture -->
+ <div class="container" id="content">
+	<div class="col-md-12" style="width: 100%;">
+		<div class="col-md-3" style="padding-left: 0px;padding-right: 0px;">
+			<div id="leftsidebar" " ng-include="'app/layout/leftsidebar.html'"></div>
+		</div>
+			<div class="col-md-9">
+					<div class="col-md-12 ov-bg">
+						<article id="post-27" class="post-27 page type-page status-publish hentry">
+
+						<!-- Get the data from JSON  and Data Bind -->
+							<div ng-repeat="data in vm.overview" ng-show="data.Id==3">
+									<header class="entry-header">
+										<h1 class="entry-title page-header">{{data.Title}}</h1>
+									</header>
+										<div class="entry-content clearfix">
+											<h4 style="text-align: justify;">
+												<a ui-sref="QualityCulture"><img  class="img-fluid" alt="Responsive image" src="{{data.ImageURL}}"></a>
+											</h4>
+                                            
+                                             <p ng-bind-html="data.Description | nl2br "></p>
+
+											<!-- <p>Vmoksha has been accredited by Carnegie Mellon’s Software Engineering institute as a CMMi Level 5 company in 2003. Highlights of Vmoksha’s CMMi accreditation:</p>
+											   <li>Financial Services</li>
+											<li>2nd company in the world to be assessed for all the 4 disciplines of CMMi</li>
+														<ol class="a"><li>Software Engineering</li>
+														<li>System Engineering</li>
+														<li>Supplier Sourcing</li>
+														<li>Integrated Process and Product Development</li>
+														</ol>
+											<li>1st company in the world to directly go for CMMi level 5 assessment without being assessed at intermediate levels</li>
+											<li>Got assessed at level 5 within 2 years of start of operations</li> -->
+									   </div>
+							</div>
+						</article>
+				 </div>
+			</div>
+		</div>
+	</div>
+
+</main> <!--End Main--> 	
+
+		
+
+

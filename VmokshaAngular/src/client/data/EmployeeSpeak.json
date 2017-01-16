@@ -1,0 +1,48 @@
+﻿﻿﻿﻿﻿{
+  "ViewModels": [{
+            "Id": 1,            
+            "ImageURL": "images/",
+            "Description": "A place where enjoy your work, get recognized for your hardwork,get professional and emotional support, and the most important,its a great family to belong to.",
+            "Company": "Bandita Choudhury",
+            "Designation": "Technical Lead"
+          }, {
+            "Id": 2,            
+            "ImageURL": "http://vikramaditya.vmokshagroup.com/vmokshagroup-dev/wp-content/uploads/2013/09/wateraid.jpg",
+            "Description": "Dear Team, Many thanks for your work on the Kenya project. This is presently being tested fully by the Kenya team. I ran some quick tests and it looked great so good work !!",
+            "Company": "WaterAid, UK",
+            "Designation": "Programme Officer, Technical Support Unit"
+            
+          }, {
+            "Id": 3,
+            "ImageURL": "http://vikramaditya.vmokshagroup.com/vmokshagroup-dev/wp-content/uploads/2013/09/ucb.jpg",
+            "Description": "“Vmoksha team have been very helpful. Our interaction and collaboration with you and your Exchange Team continues to be some of the best I have experienced in my 4+ years at UCB. Thank you,”",
+            "Company": "North American IT Operations, Associate Director",            
+            "Designation": "VM0001"
+            
+          }, {
+            "Id": 4,
+            "ImageURL": "http://vikramaditya.vmokshagroup.com/vmokshagroup-dev/wp-content/uploads/2013/09/pickforts.jpg",
+            "Description": "It has been great working with Vmoksha and I appreciate all efforts put in from the team through some very intense deliveries and timescales",
+            "Company": "Largest moving and storage company, UK",            
+            "Designation": "Project Manager"
+          }, {
+            "Id": 5,
+            "ImageURL": "http://vikramaditya.vmokshagroup.com/vmokshagroup-dev/wp-content/uploads/2013/10/CPA.jpg",
+            "Description": "Thank you so much for dealing with this issue straight away. Please also thank all of the other guys who helped. My sales manager is over the moon with the prompt service Vmoksha provides when dealing with the support issues.",
+            "Company": "Leading legal outsourcing company, UK",            
+            "Designation": "Business User"
+          }, {
+            "Id": 6,
+            "ImageURL": "http://vikramaditya.vmokshagroup.com/vmokshagroup-dev/wp-content/uploads/2013/09/ucb.jpg",
+            "Description": "For more than a year we were working on the Enterprise Vault Promotion and Mailbox Limit Implementation Projects for all sites within the organisation. Step by step we did complete one site after the other. As of now we have completed ALL sites with two exceptions had been completed. Most sites are 100% compliant to the mailbox limit of 1GB. In some sites we have one or two mailboxes still above the limit. This is an tremendous success and a prerequisite to move to Exchange 2010. I would like to take this opportunity to express my congratulations and special thanks to the Vmoksha team.",
+            "Company": "Leading Bio-Pharmaceutical Giant, UK",            
+            "Designation": "Service Delivery Manager"
+          }, {
+            "Id": 7,
+            "ImageURL": "http://vikramaditya.vmokshagroup.com/vmokshagroup-dev/wp-content/uploads/2013/09/Edwards.jpg",
+            "Description": "“Excellent!!! Thanks to the team for completing about 400 users creation in PAE/PAC”",
+            "Company": "EDWARDS",            
+            "Designation": "General Manager"
+          }],
+  "Success": true
+}

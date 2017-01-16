@@ -1,0 +1,37 @@
+<!--Section: slider3 -->
+<section class="section container">
+   
+
+    <!--Carousel Wrapper (1)-->
+    <div id="carousel-example-1" class="carousel testimonial-carousel slide carousel-fade wow fadeInLeft" data-wow-delay="0.3s" data-ride="carousel" data-interval="false">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item {{items.class}}" ng-repeat="items in vm.Carousel"">
+                <div class="testimonial purp-testmonial-content">
+                    <!--Avatar-->
+                    <div class="avatar">
+                        <img ng-src="{{vm.ImageContext + items.ImageURL}}" class="img-circle img-fluid">
+                    </div>
+                    <!--Content-->
+                    <h5 style="font-style: italic; color:blue;">"{{items.Description}}"</h5>
+                    <h5>{{items.Company}}</h5>
+                </div>
+            </div>
+        </div>
+        <!--/.Slides-->
+
+        <!--Controls-->
+        <a class="left carousel-control" href="#carousel-example-1" role="button" data-slide="prev" target="_self">
+            <span class="icon-prev purp-carousel-control" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-1" role="button" data-slide="next" target="_self">
+            <span class="icon-next purp-carousel-control" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper (1)-->
+
+</section>
+<!--Section: slider3-->

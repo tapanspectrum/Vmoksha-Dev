@@ -1,0 +1,16 @@
+<div class="row">
+	<div class="col-xs-12 col-sm-12  col-md-12 card text-xs-center text-sm-center text-md-center m-t-2 m-b-2">
+		<div class="visible-xs row">&nbsp;</div>
+		<div class="row m-t-2 m-b-2">
+			<img ng-src="{{vm.Error.Image}}" alt="{{vm.Error.Code}}"  class="img-responsive" style="margin: 0 auto;width:10%">
+		</div>        
+		<div class="m-t-2 m-b-2 row">
+			<span>Error {{vm.Error.Code}} - {{vm.Error.Message}}</span>
+			<p>{{vm.Error.ActionText}}</p>
+		</div>
+		<div class="row">
+			<a ui-sref="{{vm.Error.StateRedirect}}" class="btn btn-info m-b-2" ng-click="vm.errorPageAction(vm.Error)" id="btnErrorPageAction"><span>{{vm.Error.ButtonText}}</span></a>
+		</div>		
+	</div>
+</div>
+

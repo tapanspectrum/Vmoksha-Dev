@@ -1,0 +1,52 @@
+﻿<div class="row">
+    <div ng-if="!loadMoreOption && !infinteScrollOption">
+    <div class="row col-md-12" ng-if="!LookupView">
+        <div class="col-md-6">
+            <div class="purp-page-result">
+                <span ng-if="currentRecords <= totalRecords">
+                    <span ng-if="currentPage!='1'">
+                        <div class="" ng-if="(currentRecords * currentPage)<= totalRecords">
+                            Showing {{(currentRecords * (currentPage-1))+1}} to {{(currentRecords * currentPage)}} of {{totalRecords | number}} records
+                        </div>
+                        <div class="" ng-if="(currentRecords * currentPage)> totalRecords">
+                            Showing {{(currentRecords * (currentPage-1))+1}} to {{totalRecords}} of {{totalRecords | number}} records
+                        </div>
+                    </span>
+                    <div class="" ng-if="currentPage=='1'">
+                        Showing 1 to {{(currentRecords * currentPage) }} of {{totalRecords | number}} records
+                    </div>
+                </span>
+                <div class="" ng-if="(currentRecords > totalRecords) && totalRecords!=0">
+                    Showing 1 to {{totalRecords | number}} of {{totalRecords | number}} records
+                </div>
+            </div>﻿
+        </div>
+
+        <div class="col-md-6">
+            <nav aria-label="Page navigation">
+                <ul class="pagination pagination-sm pull-right">
+                    <li class="page-item"><a href="" ng-click="gotoPreviousPage(1)" class="page-link">&laquo;</a></li>
+                    <li ng-repeat="p in pages" ng-class="{active: p === currentPage}" class="page-item"><a href="" ng-bind="p" ng-click="gotoPage(p)" class="page-link"></a></li>
+                    <li class="page-item"><a href="" ng-click="gotoNextPage(totalPages)" class="page-link">&raquo;</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="" ng-if="LookupView">
+            <nav aria-label="Page navigation">
+                <ul class="pagination pagination-sm pull-right" >
+                    <li class="page-item"><a href="" ng-click="gotoPreviousPage(1)" class="page-link">&laquo;</a></li>
+                    <li ng-repeat="p in pages" ng-class="{active: p === currentPage}" class="page-item"><a href="" ng-click="gotoPage(p)" ng-bind="p" class="page-link"></a></li>
+                    <li class="page-item"><a href="" ng-click="gotoNextPage(totalPages)" class="page-link">&raquo;</a></li>
+                </ul>
+            </nav>
+    </div>
+    </div>    
+    <div id="divViewMorePropertiesGrid"></div>
+    <div ng-if="loadMoreOption && totalPages!=currentPage" id="divViewMorePropertiesDataGrid" class="container">
+        <button type="button" class="btn btn-md btn-block purp-showmore-btn" ng-click="gotoPage(currentPage+1)" id="ViewmoreProperties" ng-disabled="totalPages==currentPage">Show More</button>
+    </div>
+    <div ng-if="infinteScrollOption" infinite-scroll='loadMore(gotoPage(currentPage+1))'>
+        
+    </div>
+</div>
