@@ -1,0 +1,43 @@
+<!-- * Description: The Test Tools and Technologies page deals with the Sevices page.
+	 * Author:  Kirti
+	 * Created On: 17/01/2017
+	 * Modified For: Get the data from JSON and ngSanitize's linky filter changes \r and \n to &#10; and &#13; respectively
+	 * Modified On: 
+	 * Modified By:
+ 	 * *-->
+
+<main>   
+        <!--Test Tools and Technologies -->
+<div class="container" id="content">
+	<div class="col-md-12" style="width: 100%;">
+		<div class="col-md-3" style="padding-left: 0px;padding-right: 0px;">
+			<div id="leftsidebar" " ng-include="'app/layout/services_leftsidebar.html'"></div>
+		</div>
+		<div class="col-md-9">
+			<div class="col-md-12 ov-bg">
+				   <article id="post-27" class="post-27 page type-page status-publish hentry">
+				   <!-- Get the data from JSON and Bind  the Data-->
+				    <div ng-repeat="data in vm.applicationdevelopment" ng-show="data.Id==8">
+						<header class="entry-header">
+							<h1 class="entry-title page-header">{{data.Title}}</h1>
+						</header>
+							<div class="entry-content clearfix">
+								<h4 style="text-align: justify;">
+									<a ui-sref="test_tools_and_technologies"><img  class="img-fluid" alt="Responsive image" src="{{data.ImageURL}}">
+									</a>
+								</h4>
+                                 <b>{{data.SubTitle}}</b>
+                                 <!-- ngSanitize's linky filter changes \r and \n to &#10; and &#13; respectively -->
+                                 <p  ng-bind-html="data.Description | nl2br "></p>
+                              
+							</div>
+					</div>
+					</article><!-- end article-->
+		    </div>
+		 </div>
+	</div><!--End Test Tools and Technologies container -->
+</div><!--End Test Tools and Technologies container -->
+
+	<!-- End Test Tools and Technologies-->
+		
+</main><!--End Main-->
