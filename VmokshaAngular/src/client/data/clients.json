@@ -1,0 +1,24 @@
+﻿﻿﻿{
+  "ViewModels": [{
+            "Id": 1,   
+            "Title": "Clients",         
+            "ImageURL": "http://vmokshagroup.com/wp-content/uploads/2013/09/customers_bnr.jpg",
+            "Decripition":"Vmoksha has served the different customers with different domains which includes:",
+            "SubTitle":"Financial Services",
+            "SubDescripition":"  <li>Honda Financial Services</li><li>Bank of Montreal</li><li>S1 (ACI Worldwide)</li><li>ZafinLabs</li><li>e4Xchange Corporation</li>\n",
+            "SubTitle1":"Manufacturing & Food Processing",
+            "SubDescripition1":"  <li>Leading Food Company</li><li>Yamaha Music (Asia) Private Ltd</li><li>Edwards Limited</li><li>Toyota Kirloskar Motor Private Ltd</li><li>E. &. J. Gallo Winery, Inc</li>\n",
+            "SubTitle2":"Legal  & Intellectual Property",
+            "SubDescripition2":"  <li>Shanthakumaran</li><li>CPA Global Ltd</li>\n",
+            "SubTitle3":"Information Technology",
+            "SubDescripition3":"  <li>Peopleclick Authoria</li><li>IBM Corporation</li><li>Jamcracker Ltd</li><li>KPIT Cummins Infosystems Ltd</li><li>Oracle Solutions Services India Private Ltd</li><li>TeamLease Services Private Ltd</li><li>Robert Bosch GmbH</li><li>Dot Agency</li><li>ITC Infotech India Ltd</li><li>Capgemini India</li><li>Informa Plc</li><li>Moving Services</li><li>Blue Star Infotech</li><li>CEPTES Software Pvt Ltd</li><li>SAP Labs</li><li>HP India</li><li>IBM USA</li>\n",
+            "SubTitle4":"Retail & Distribution",
+            "SubDescripition4":"  <li>Christies Inc</li><li>NTUC Fairprice Co-operative Lts</li><li>Linde AG</li><li>Pickfords</li><li>CK Tangs</li>\n",
+            "SubTitle5":"Healthcare & Life Sciences",
+            "SubDescripition5":"  <li>UCB Pharma Ltd</li><li>3M</li>\n",
+            "SubTitle6":"Others",
+            "SubDescripition6":"  <li>Leading VoIP Service Provider</li>\n",
+            "ImageURL_Companys":[ "http://vmokshagroup.com/wp-content/uploads/2013/10/Capgemini.jpg","http://vmokshagroup.com/wp-content/uploads/2013/09/bosch.jpg","http://vmokshagroup.com/wp-content/uploads/2013/09/bmo.jpg","http://vmokshagroup.com/wp-content/uploads/2013/09/bluestar.jpg","http://vmokshagroup.com/wp-content/uploads/2013/09/authoria.jpg","http://vmokshagroup.com/wp-content/uploads/2013/09/3m.jpg","http://vmokshagroup.com/wp-content/uploads/2013/09/yamaha.jpg","http://vmokshagroup.com/wp-content/uploads/2013/09/wateraid.jpg","http://vmokshagroup.com/wp-content/uploads/2013/09/ucb.jpg","http://vmokshagroup.com/wp-content/uploads/2013/09/Toyoto.jpg","http://vmokshagroup.com/wp-content/uploads/2013/09/Toyoto.jpg","http://vmokshagroup.com/wp-content/uploads/2013/09/tmds.jpg","http://vmokshagroup.com/wp-content/uploads/2013/09/Teamlease.jpg"]
+            }],
+  "Success": true
+}
