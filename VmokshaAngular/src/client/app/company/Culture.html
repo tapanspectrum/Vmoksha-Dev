@@ -1,9 +1,9 @@
 <!--* Description: This page deals with the Vmoksha's Culture.
  * Author:  Kirti
  * Created On: 7/01/2017
- * Modified For: 
- * Modified On: 
- * Modified By:
+ * Modified For: Get the data from JSON and ngSanitize's linky filter changes \r and \n to &#10; and &#13; respectively
+ * Modified On: 16/01/2017
+ * Modified By:Kirti
  * -->
 
 <main>   
@@ -16,14 +16,18 @@
 			<div class="col-md-9">
 				<div class="col-md-12 ov-bg">
 					<article id="post-27" class="post-27 page type-page status-publish hentry">
+					  <!-- Get the data from JSON  and Data Bind -->
+				    <div ng-repeat="data in vm.overview" ng-show="data.Id==6">
 						<header class="entry-header">
-							<h1 class="entry-title page-header">Culture</h1>
+							<h1 class="entry-title page-header">{{data.Title}}</h1>
 						</header>
 							<div class="entry-content clearfix">
 								<h4 style="text-align: justify;">
-									<a ui-sref="Culture"><img  class="img-fluid" alt="Responsive image" src="/images/csr_bnr.jpg"></a>
+									<a ui-sref="Culture"><img  class="img-fluid" alt="Responsive image" src="{{data.ImageURL}}"></a>
 								</h4>
-								<p>Vmoksha measures its success in terms of the value provided to our customers. The extent to which we contribute in achieving their return on investment goals with a competitive advantage.</p>
+
+								<p  ng-bind-html="data.Description | nl2br "></p>
+								<!-- <p>Vmoksha measures its success in terms of the value provided to our customers. The extent to which we contribute in achieving their return on investment goals with a competitive advantage.</p>
 								
 								<p>Vmoksha employees share the commitment to provide and be accountable for high quality, measurable results to our clients, partners, shareholders and one another. To exceed their expectations from us as a team and as individuals.</p>
 								
@@ -34,9 +38,10 @@
 								<p>To us modesty is the opposite of affectedness, pretentiousness, arrogance and boastfulness. It means discretion, spontaneity and openness in relations.</p>
 
 								<p>We are proud of what we do, and we achieve our objectives in the never-ending search for top quality.</p>
-								<br/>
+								 --><br/>
 								<br/>
 							</div><!-- End entry-content clearfix Culture-->
+							</div>
 					</article><!-- end article-->
 				</div><!-- End col-md-12 Culture-->
 			</div> <!-- End col-md-9  Culture-->

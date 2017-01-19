@@ -1,9 +1,9 @@
 <!--* Description: The is page  deals with the Testimonials.
  * Author:  Kirti
  * Created On: 7/01/2017
- * Modified For: 
- * Modified On: 
- * Modified By:
+ * Modified For:Get the data from JSON and ngSanitize's linky filter changes \r and \n to &#10; and &#13; respectively
+ * Modified On: 16/01/2017
+ * Modified By:Kirti
  * -->
 
 <main>   
@@ -16,14 +16,42 @@
 			<div class="col-md-9">
 				<div class="col-md-12 ov-bg">
 					<article id="post-27" class="post-27 page type-page status-publish hentry">
+					 <!-- Get the data from JSON  and Data Bind -->
+				    <div ng-repeat="data in vm.overview" ng-show="data.Id==8">
 						<header class="entry-header">
-							<h1 class="entry-title page-header">Testimonials</h1>
+							<h1 class="entry-title page-header">{{data.Title}}</h1>
 						</header>
 							<div class="entry-content clearfix">
 								<h4 style="text-align: justify;">
-									<a ui-sref="Testimonials"><img  class="img-fluid" alt="Responsive image" src="/images/careers_bnr.jpg"></a>
+									<a ui-sref="Testimonials"><img  class="img-fluid" alt="Responsive image" src="{{data.ImageURL}}"></a>
 								</h4>
-								<p><span>Dear Team, Many thanks for your work on the Kenya project. This is presently being tested fully by the Kenya team. I ran some quick tests and it looked great so good work !!
+								<p  ng-bind-html="data.Testi_Descrip | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Designation | nl2br "></p>
+
+								<p  ng-bind-html="data.Testi_Descrip1 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Designation1 | nl2br "></p>
+
+								<p  ng-bind-html="data.Testi_Descrip2 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Designation2 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Descrip3 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Designation3 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Descrip4 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Designation4 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Descrip5 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Designation5 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Descrip6 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Designation6 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Descrip7 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Designation7 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Descrip8 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Designation8 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Descrip9 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Designation9 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Descrip10 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Designation10 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Descrip11 | nl2br "></p>
+								<p  ng-bind-html="data.Testi_Designation11 | nl2br "></p>
+								<!-- <p><span>Dear Team, Many thanks for your work on the Kenya project. This is presently being tested fully by the Kenya team. I ran some quick tests and it looked great so good work !!
 								</span></p>
 								<span><b>– Programme Officer, Mapping, Technical Support Unit, WaterAid, UK</b></span>
                                  <p>&nbsp;</p>
@@ -80,7 +108,7 @@
 
 								<p><span>Congratulations for the huge success of this project. Use the practices from this project as best practice for other outsourcing projects.
    								</span></p>
-								<span><b>- -Director – HCM</b></span>
+								<span><b>- -Director – HCM</b></span> -->
 								<p>&nbsp;</p>
 
 
@@ -88,6 +116,7 @@
 								<br/>
 
 							</div><!-- End entry-content clearfix Testimonials-->
+							</div>
 					</article><!-- end article-->
 				</div><!-- End col-md-12 Testimonials-->
 			</div> <!-- End col-md-9  Testimonials-->

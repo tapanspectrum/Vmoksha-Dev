@@ -165,7 +165,7 @@
             {
                 state: 'WhyVmoksha',
                 config: {
-                    url:  '/company/aboutus/infrastructure',
+                    url:  '/company/aboutus/whyvmoksha',
                     title: '/',
                     settings: {
                         nav: 1

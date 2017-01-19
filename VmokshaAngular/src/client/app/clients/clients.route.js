@@ -1,6 +1,6 @@
-/* Description: The Admin Route deals with maintaining all routes related to admin and super admin modules.
+/* Description: The Clients Route deals with maintaining all routes related to Clients modules.
  * Author:  Kirti 
- * Created On: 27/12/2016
+ * Created On: 19/1/2017
  * Modified For: 
  * Modified On:
  * Modified By:
@@ -9,7 +9,7 @@
 (function () {
     'use strict';
     angular
-        .module('app.landing')
+        .module('app.clients')
         .run(appRun)
     appRun.$inject = ['routerHelper', 'vmuisettings'];
     /* @ngInject */
@@ -21,9 +21,9 @@
     function getStates(vmuisettings) {        
         return [           
             {
-                state: 'landing',
+                state: 'clients',
                 config: {
-                    url:  '/',
+                    url:  '/clients',
                     title: '/',
                     settings: {
                         nav: 1
@@ -35,8 +35,8 @@
                             controllerAs: 'vm'
                         },
                         'content': {
-                            templateUrl: 'app/landing/landing.content.html',
-                            controller: 'Landing',
+                            templateUrl: 'app/clients/clients.html',
+                            controller: 'Clients',
                             controllerAs: 'vm'
                         },
                         'footer': {
@@ -46,8 +46,9 @@
                         }
                     }
                 }
-            },  
+            }
 
+          
         ];
     }
 })();

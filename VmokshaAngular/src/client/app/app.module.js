@@ -14,7 +14,11 @@
         'app.blog',
         'app.hello',
         'app.company',
-        'app.contactus'
+        'app.contactus',
+        'app.services',
+        'app.product',
+        'app.partners',
+        'app.clients'
     ]);
 
 })();

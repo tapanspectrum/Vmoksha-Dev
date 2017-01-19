@@ -1,9 +1,9 @@
 <!--* Description: The is page  deals with the Corporate Social Responsibilities.
  * Author:  Kirti
  * Created On: 7/01/2017
- * Modified For: 
- * Modified On: 
- * Modified By:
+ * Modified For:Get the data from JSON and ngSanitize's linky filter changes \r and \n to &#10; and &#13; respectively
+ * Modified On: 16/01/2017
+ * Modified By:Kirti
  * -->
 
 <main>   
@@ -16,14 +16,20 @@
 			<div class="col-md-9">
 				<div class="col-md-12 ov-bg">
 					<article id="post-27" class="post-27 page type-page status-publish hentry">
+					 <!-- Get the data from JSON  and Data Bind -->
+				    <div ng-repeat="data in vm.overview" ng-show="data.Id==7">
 						<header class="entry-header">
-							<h1 class="entry-title page-header">Infrastructure</h1>
+							<h1 class="entry-title page-header">{{data.Title}}</h1>
 						</header>
 							<div class="entry-content clearfix">
 								<h4 style="text-align: justify;">
-									<a ui-sref="CorporateSocialResponsibilities"><img  class="img-fluid" alt="Responsive image" src="/images/csr_bnr.jpg"></a>
+									<a ui-sref="CorporateSocialResponsibilities"><img  class="img-fluid" alt="Responsive image" src="{{data.ImageURL}}"></a>
 								</h4>
-								<p>Vmoksha considers CSR as an integral objective of its business. To Vmoksha business is not an isolated entity insulated from the Society. A business is very much a part of the Social Ecosystem. And in any ecosystem there has to be a give and take.</p>
+								<p  ng-bind-html="data.Description | nl2br "></p>
+								<b>{{data.Activities_Title}}</b>
+								  <p  ng-bind-html="data.Activities_Cont | nl2br "></p>
+
+							<!-- 	<p>Vmoksha considers CSR as an integral objective of its business. To Vmoksha business is not an isolated entity insulated from the Society. A business is very much a part of the Social Ecosystem. And in any ecosystem there has to be a give and take.</p>
 
 								<p>Vmoksha CSR initiatives are designed to enhance value creation in the society and in the community in which it operates. Vmoksha through its services, conduct & initiatives will promote sustained growth for the society and community to fulfill its role as a Socially Responsible Corporate.</p>
                                 
@@ -35,8 +41,9 @@
 								<li>Fire-protection, earthquake zone 4 regulation design</li>
 								<li>LAN with CISCO devices and fully secured with firewalls</li>
 								<li>VoIP from CISCO and IP PBX</li>
-								<li>Dedicated Internet Leased Line of 12 Mbps (ILL), VPN access</li>
+								<li>Dedicated Internet Leased Line of 12 Mbps (ILL), VPN access</li> -->
 							</div><!-- End entry-content clearfix CorporateSocialResponsibilities-->
+							</div>
 					</article><!-- end article-->
 				</div><!-- End col-md-12 CorporateSocialResponsibilities-->
 			</div> <!-- End col-md-9  CorporateSocialResponsibilities-->

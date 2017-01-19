@@ -1,0 +1,69 @@
+<!-- * Description: The Clients page deals with the Clients of the Vmoksha Technologies.
+	 * Author:  Kirti
+	 * Created On: 19/1/2017
+	 * Modified For: 
+	 * Modified On: 
+	 * Modified By:
+ 	 * *-->
+
+<main>   
+        <!--Clients-->
+<div class="container" id="content">
+	<div class="col-md-12" style="width: 100%;">
+				<div class="col-md-12 ov-bg">
+				   <article id="post-27" class="post-27 page type-page status-publish hentry">
+
+				    <!-- Get the data from JSON and Bind the Data-->
+				    <div ng-repeat="data in vm.clients" ng-show="data.Id==1">
+						<header class="entry-header">
+							<h1 class="entry-title page-header">{{data.Title}}</h1>
+						</header>
+							<div class="entry-content clearfix">
+								
+								<h4 style="text-align: justify;">
+							    	<a ui-sref="clients"><img  class="img-fluid" alt="Responsive image" src="{{data.ImageURL}}"></a>
+							    </h4>
+                                  <p ng-bind-html="data.Decripition | nl2br "></p>
+								  
+								<b>{{data.SubTitle}}</b>
+                                 <p ng-bind-html="data.SubDescripition | nl2br "></p>
+
+								  
+								<b>{{data.SubTitle1}}</b>
+                                 <p ng-bind-html="data.SubDescripition1 | nl2br "></p>
+
+                                 <b>{{data.SubTitle2}}</b>
+                                 <p ng-bind-html="data.SubDescripition2 | nl2br "></p>
+                                 
+                                 <b>{{data.SubTitle3}}</b>
+                                 <p ng-bind-html="data.SubDescripition4 | nl2br "></p>
+
+                                  <b>{{data.SubTitle4}}</b>
+                                 <p ng-bind-html="data.SubDescripition4 | nl2br "></p>
+
+                                 <b>{{data.SubTitle5}}</b>
+                                 <p ng-bind-html="data.SubDescripition5 | nl2br "></p>
+                                
+                                 <b>{{data.SubTitle6}}</b>
+                               <p ng-bind-html="data.SubDescripition6 | nl2br "></p>
+
+							<ul class="img-fluid" >
+							    <li ng-repeat="img in vm.clients[0].ImageURL_Companys">
+							       
+							    </li>
+							</ul>
+
+
+                                <!--  <p ng-bind-html="data.SubDescripition6 | nl2br "></p>
+                                 <a ui-sref="clients"><img  class="img-fluid" alt="Responsive image" src="ng-bind-html="data.ImageURL_Companys" "></a> -->
+							</div>
+					</div>
+					</article><!-- end article-->
+		    </div>
+		 </div>
+	</div><!--End Clients container -->
+</div><!--End Clients container -->
+
+	<!-- End Clients-->
+		
+</main><!--End Main-->

@@ -1,0 +1,51 @@
+<!-- * Description: The Partners page deals with the Partners of Vmoksha Technologies.
+	 * Author:  Kirti
+	 * Created On: 19/1/2017
+	 * Modified For: 
+	 * Modified On: 
+	 * Modified By:
+ 	 * *-->
+
+<main>   
+        <!--Partners-->
+<div class="container" id="content">
+	<div class="col-md-12" style="width: 100%;">
+				<div class="col-md-12 ov-bg">
+				   <article id="post-27" class="post-27 page type-page status-publish hentry">
+
+				    <!-- Get the data from JSON and Bind the Data-->
+				    <div ng-repeat="data in vm.partners" ng-show="data.Id==1">
+						<header class="entry-header">
+							<h1 class="entry-title page-header">{{data.Title}}</h1>
+						</header>
+							<div class="entry-content clearfix">
+								
+								<h4 style="text-align: justify;">
+							    	<a ui-sref="partners"><img  class="img-fluid" alt="Responsive image" src="{{data.ImageURL}}"></a>
+							    </h4>
+
+								  
+								<a ui-sref="partners"><img  class="img-fluid" alt="Responsive image" src="{{data.CompanyImageURL}}"></a>
+                                
+                                 <p ng-bind-html="data.CompanyDescription | nl2br "></p>
+
+								  
+								<a ui-sref="partners"><img  class="img-fluid" alt="Responsive image" src="{{data.CompanyImageURL1}}"></a>
+                                
+                                 <p ng-bind-html="data.CompanyDescription1 | nl2br "></p>
+  
+								<a ui-sref="partners"><img  class="img-fluid" alt="Responsive image" src="{{data.CompanyImageURL2}}"></a>
+                                
+                                 <p ng-bind-html="data.CompanyDescription2 | nl2br "></p>
+
+							</div>
+					</div>
+					</article><!-- end article-->
+		    </div>
+		 </div>
+	</div><!--End Partners container -->
+</div><!--End Partners container -->
+
+	<!-- End Partners-->
+		
+</main><!--End Main-->

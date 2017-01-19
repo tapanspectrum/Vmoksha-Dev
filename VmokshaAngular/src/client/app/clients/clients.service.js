@@ -1,6 +1,6 @@
-/* Description: The landing Services deals with maintaining functionality related to the landing page.
+/* Description: The Clients Service page deals with maintaining functionality related to the Partners pages.
  * Author:  Kirti
- * Created On: 29/12/2016
+ * Created On: 19/1/2017
  * Modified For: 
  * Modified On: 
  * Modified By:
@@ -9,28 +9,29 @@
     'use strict';
 
     angular
-        .module('app.blog')
-        .factory('BlogService', BlogService);
+        .module('app.clients')
+        .factory('ClientsService', ClientsService);
     /* @ngInject */
-    function BlogService($http, $location, $q, exception, logger, common, config) {
+    function ClientsService($http, $location, $q, exception, logger, common, config, vmuisettings) {
 
         var readyPromise;
 
         var service = {
-           getBlog:getBlog,
+           
+            getClients:getClients,
             ready: ready
         };
 
         return service;
        
        
-        //Retrives the value from JSON file CustomerSpeak
-        function getBlog() {
+        //Retrives the value from JSON  data of the Clients
+
+        function getClients() {debugger
             var deferred = $q.defer(); //promise
             $http({
                 method: 'GET',
-                url:'data/customerspeak.json'
-
+                url: vmuisettings.JsonDataUrl + 'clients.json'
             }).success(function (data, status, headers, config) {
                 deferred.resolve(data);
             }).error(function (data, status, headers, config) {
@@ -38,7 +39,6 @@
             });
             return deferred.promise;
         }
-       
 
 
      
