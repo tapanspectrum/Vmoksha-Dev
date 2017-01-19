@@ -1,0 +1,40 @@
+﻿﻿﻿{
+  "ViewModels": [{
+            "Id": 1,   
+            "Title": "DéenstDesk",         
+            "Description": "DéenstDesk is a comprehensive & single point of contact for support within an organization Service Desk Management Solution, which helps the IT Service Desk to run efficiently, resulting in faster incident resolution, controlled costs and increased overall customer satisfaction. It is designed to support ITIL v3 processes. This application is implemented as a web based application hosted in SaaS (software as a service) model which enables easy setup and ease of manageability.\nThese are the features currently incorporated in DéenstDesk Ver 1.0:    <li>Incident management</li><li>Knowledge base</li><li>Admin modules</li>\n",
+            "SubTitle":"Features and Benefits",
+			"ImageURL": "http://vmokshagroup.com/wp-content/uploads/2013/09/Deenst.gif",
+            "SubDescription":"    <li>Highly customizable for organization requirements and easy administration.</li><li>Web based user-friendly browser interface</li><li>Role-based team access and user self-service portal</li><li>Multi-level categorization to simplify ticket assignments</li><li>Email Notifications and tracking at all stages of ticket lifecycle</li><li>Dashboard with graphical view of workload and performance statistics</li><li>Customizable escalation mechanism</li><li>Notification of SLA</li><li>Flexible Reports using user-defined search criteria and queries</li><li>User Satisfaction Survey</li><li>Backup and Archival of closed tickets</li><li>Bulk User import using a csv file</li>\n",
+            "SubTitle1":"Benefits of incorporating DéenstDesk in your organization",
+            "SubDescription1":"    <li>Streamline and standardize the service desk functionalities</li><li>Reduce the effort and cost involved in performing helpdesk activities</li><li>Efficiently tracking and control the incidents</li><li>Increase first time call closure rates and accelerate incident resolution times by utilizing ITIL Management processes</li><li>Increase in staff efficiency/service levels by using self-service portal and transparent communication and correspondence channels</li><li>Assist in the management of IT resources depending on the incident reports</li><li>Feature industry standard reports on the fly for the management and the admin users</li><li>Provide an extensive knowledge base for faster resolution of the incidents</li><li>Customizable, flexible and scalable solution enabling organizations to achieve an outstanding ROI</li>\n\n<p>For more information visit DéenstDesk website, click here/p>",
+            "SubTitle2":"Screenshots",
+            "SubTitle2_ImageURL":"http://vmokshagroup.com/wp-content/uploads/2013/09/SignUp3.bmp"
+
+          },{
+            "Id":"2",
+            "Title":"Retail Business Solution",
+            "Description":"Retailing is undergoing transformations. Major chains are expanding their presence cross geographic regions and, in many cases, across national boundaries. Retail companies are confronted with an array of challenges including growing markdowns and stock-outs, customers are expecting retailers to deliver a consistent experience, regardless of whether they are inside the store, calling a call center, or at their computer.\nVmoksha’s Retail Business solution (RBS) for retailers covers:    <li>Front-end systems</li><li>Add-ons to merchandising</li><li>Back-end ERP systems and</li><li>Business improvement and customer-facing systems</li>\n\nOur solutions cover department stores, specialty and convenience chain stores, shopping malls, hypermarkets, super markets and grocery retailers.",
+            "SubTitle1":"Modules of RBS",
+            "SubTitle2":"\n \nBusiness Modules ",
+            "SubDescription1":"    <li>Stock planning</li><li>Stock Receiving</li><li>RTV</li><li>Promotion Management</li><li>Purchase Order</li><li>Transfers</li><li>Stock Take</li><li>Price Management</li><li>Warehouse Transfers/ Orders</li><li>Manual transactions</li><li>Supplier Management</li><li>Cost Management</li><li>Franchisee Management</li><li>Wholesale sales</li><li>Catalog Management</li><li>Performance Management</li><li>Shelf label printing</li><li>Sales</li><li>Reports</li><li>Invoice Matching</li><li>Fresh Foods</li>\n",
+            "SubTitle3":"IT Modules",
+            "SubDescription2":"    <li>Audit</li><li>Access control</li><li>Help and Error</li><li>EOD Processing</li><li>e-Procurement Interface</li><li>Interface to Legacy System (RMS)</li><li>Interface to POT / PDA</li><li>Interface to POS (CALYPSO)</li><li>Interface to Warehousing System</li><li>Interface to Financials (Oracle Fin.)</li><li>Interface to Store Level Systems (SIMS)</li><li>Interface to Legacy System (RMS)</li>\n",
+            "SubTitle4":"Benefits",
+            "SubDescription3":"    <li>Greater business visibility thus promoting greater return on inventory investment</li><li>Integrated, but modular solutions allow for adaptability and flexibility</li><li>Extensive business processes and implementation documentation</li><li>Quick planning, setup, scale up and maintenance of franchisee stores across countries</li><li>Ability to quickly analyze performance of individual and multiple franchisee outlets across the region</li><li>Effectively perform, track, and manage business specific tasks such as catalog management, categorizing, stock in hand, stocks to be ordered, and distributing of stocks across the franchise outlets</li><li>Efficient tracking and management of customers, suppliers and wholesalers</li><li>Effective tracking of store transactions, stock takes, maintenance and on-time replenishment of stock</li><li>Communicate price changes, offers, promotions and special information to customers, vendors, and suppliers instantly and with utmost ease</li><li>Multiple brand stores can be handled single handedly thus reducing resource cost</li><li>Financial statement for single or master franchise or corporate can be obtained.</li>\n",
+            "SubTitle5":"Screenshots",
+            "SubTitle5_ImageURL":"http://vmokshagroup.com/wp-content/uploads/2013/09/Access-Control.bmp"
+            },{
+            "Id":"3",
+            "Title":"Vzone",
+            "Description":"Vzone is a set of intranet based applications, which is conceptualized, designed and developed by Vmoksha and is a medium of communication between the organization and its employees. It can be accessed internally through LAN and through VPN connection from outside. We have customized and successfully implemented ‘Vzone’ for many of our clients.\nThe functionalities covered by these applications are as follows:    <li>Leave Management</li><li>Employee Information Management</li><li>Travel Management</li><li>Timesheet Management</li><li>Assignment Tracking System</li>\n",
+            "SubTitle":"Features",
+            "SubDescription":"    <li>Role based access system</li><li>Assign access to information/application based on employee’s role, designation and department</li><li>Business operations & management</li><li>A platform for developing & deploying applications to support business operations & decisions across the internetworked enterprise</li><li>Cost-effective</li><li>Users can view information/data via web-browser & reduce maintaining physical documents such as procedure manuals, internal phone list & requisition forms</li><li>Knowledge sharing platform</li><li>Allows to sustain ‘cumbersome’ corporate knowledge & is easily accessed throughout the company using hypermedia & Web technologies</li><li>Cross-platform capability</li><li>Compliant to most of the popular browsers</li>\n",
+            "SubTitle1":"Screenshots",
+            "SubTitle1_ImageURL":"http://vmokshagroup.com/wp-content/uploads/2013/10/Login2.png"
+
+                }],
+  "Success": true
+
+
+}

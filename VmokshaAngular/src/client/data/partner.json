@@ -1,0 +1,14 @@
+﻿﻿﻿{
+  "ViewModels": [{
+            "Id": 1,   
+            "Title": "Partners",         
+            "ImageURL": "http://vmokshagroup.com/wp-content/uploads/2013/09/partners_bnr.jpg",
+            "CompanyImageURL":"http://vmokshagroup.com/wp-content/uploads/2013/09/spritle_logo.jpg",
+            "CompanyDescription":"Spritle was started in 2009, with the purpose of providing friendly software services in a way that keeps both their customers and development team happy. Spritle offers Mobile Application Development services using RhoMobile platform. The mobile applications can run on multiple platforms like iPhone, Android, Blackberry and Windows Mobile. Spritle has expertise in developing enterprise/corporate level mobile applications. Spritle offers Web Application Development services using Ruby on Rails and Web 2.0 user experiences.   www.spritle.com",
+            "CompanyImageURL1":"http://vmokshagroup.com/wp-content/uploads/2013/09/axinovate.png",
+            "CompanyDescription1":"Axinovate NA is a global software development firm with offices in Austin, Texas, New Orleans, Louisiana, and Banglore, India. Originally, Axinovate started its operations with only 2 people. Since then, the company has seen phenomenal growth. Axinovate’s resource team now exceeds 50 professionals with diverse experience in programming, interactive design, software engineering, testing and quality assurance, project management, systems administration, website management, and maintenance. The team has two United States’ patents to its credit in the field of IT product development.  www.axinovate.com",
+            "CompanyImageURL2":"http://vmokshagroup.com/wp-content/uploads/2013/09/v2v.jpg",
+            "CompanyDescription2":"V2 Technologies have successfully rooted itself as a loyal and reliable multinational corporation delivering innovative solutions and dispense premium services maintaining world class standards of business integrity and sustainability. V2 Technologies provide solutions in the field of web content management, enterprise content management and integration of ECM technology with a diverse set of business applications.  www.v2techinc.com"
+            }],
+  "Success": true
+}
